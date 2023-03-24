@@ -6,25 +6,30 @@
 */
 int main(void)
 {
-	int i;
+	int x;
 
-	for (i = 1; i <= 100; i++)
+	for (x = 1; x <= 100; x++)
 	{
-		if ((i % 3) == 0)
+		if (x % 3 == 0 || x % 5 == 0)
 		{
-			printf("%s", "Fizz");
-			putchar(' ');
-			continue;
+			if (x % 3 == 0)
+			{
+				printf("Fizz");
+			}
+			if (x % 5 == 0)
+			{
+				printf("Buzz");
+			}
 		}
-		else if ((i % 5) == 0)
+		else
 		{
-			printf("%s", "Buzz");
-			putchar(' ');
-			continue;
+			printf("%d", x);
 		}
-		printf("%d", i);
+		if (x != 100)
+		{
 		putchar(' ');
+		}
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }

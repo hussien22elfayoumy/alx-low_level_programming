@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _puts_recursion: print a string
- * @s1: string
+ * _puts_recursion: print a string followd by new line
+ * @s: contains a string
  * Return: void.
  */
 

@@ -10,6 +10,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
+
 	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
@@ -18,6 +19,10 @@ char *_strpbrk(char *s, char *accept)
 			{
 				return (s);
 				break;
+			}
+			else if (accept[i] == '\0')
+			{
+				return (NULL);
 			}
 		}
 		s++;

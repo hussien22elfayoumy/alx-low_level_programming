@@ -20,12 +20,8 @@ char *_strpbrk(char *s, char *accept)
 				return (s);
 				break;
 			}
-			else if (accept[i] == '\0')
-			{
-				return (NULL);
-			}
 		}
 		s++;
 	}
-	return (s);
+	return (NULL);
 }

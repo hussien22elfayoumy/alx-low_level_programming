@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - print a string followd by new line
+ * _memset - fill the memory
  * @s: contains a string
  * @b: contains a charachter
  * @n: contains a unsigned integer
@@ -11,6 +11,7 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i = 0;
+
 	for (i = 0; i < (int)n; i++)
 	{
 		s[i] = b;

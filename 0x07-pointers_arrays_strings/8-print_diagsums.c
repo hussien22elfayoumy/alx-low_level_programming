@@ -4,6 +4,7 @@
 /**
  * print_diagsums - a a function that prints the sum of the two diagonals;
  * @a: pointer to a string that we will sesarch in
+ * @size: size of tha matrix
  * Return: void;
  */
 void print_diagsums(int *a, int size)

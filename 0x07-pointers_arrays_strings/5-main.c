@@ -6,8 +6,13 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-  return 0;
+	char *s = "hello, world";
+	char *f = "world";
+	char *t;
+
+	t = _strstr(s, f);
+	printf("%s\n", t);
+	return (0);
 }

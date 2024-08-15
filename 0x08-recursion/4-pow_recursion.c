@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion -  a function that returns the value of x raised to the power of y.
- * @x: contains a number
- * @y: contains a number
+ * _pow_recursion - a function returns the value of x raised to power of y.
+ * @x: contains a base
+ * @y: contains a power
  * Return: the pow(x, y).
  */
 

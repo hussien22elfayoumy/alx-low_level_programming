@@ -1,14 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-
-	return 0;
+    _print_rev_recursion("\nColton Walker");
+    return (0);
 }
